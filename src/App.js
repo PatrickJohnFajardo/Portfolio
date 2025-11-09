@@ -35,96 +35,84 @@ export default function Portfolio() {
   };
 
   const skills = [
-    { name: 'Python', color: 'bg-yellow-500', icon: '🐍' },
-    { name: 'JavaScript', color: 'bg-yellow-400', icon: '📜' },
-    { name: 'React', color: 'bg-blue-400', icon: '⚛️' },
-    { name: 'Node.js', color: 'bg-green-600', icon: '🟢' },
-    { name: 'TypeScript', color: 'bg-blue-600', icon: 'TS' },
-    { name: 'MongoDB', color: 'bg-green-500', icon: '🍃' },
-    { name: 'PostgreSQL', color: 'bg-blue-500', icon: '🐘' },
-    { name: 'Docker', color: 'bg-blue-400', icon: '🐳' },
-    { name: 'AWS', color: 'bg-orange-500', icon: '☁️' },
-    { name: 'Git', color: 'bg-orange-600', icon: '📊' },
-    { name: 'TailwindCSS', color: 'bg-cyan-500', icon: '🎨' },
-    { name: 'Next.js', color: 'bg-gray-900', icon: '▲' },
+    { name: 'PHP', icon: '/icons/php.svg' },
+    { name: 'Python', icon: '/icons/python.svg' },
+    { name: 'JavaScript', icon: '/icons/javascript.svg' },
+    { name: 'Canva', icon: '/icons/canva.png' },
+    { name: 'HTML', icon: '/icons/html.svg' },
+    { name: 'CSS', icon: '/icons/css.svg' },
+    { name: 'Figma', icon: '/icons/figma.svg' },
+    { name: 'Gemini', icon: '/icons/gemini.svg' },
+    { name: 'Git', icon: '/icons/git.svg' },
+    { name: 'MySQL', icon: '/icons/mysql.svg' },
+    { name: 'Next.js', icon: '/icons/nextjs.svg' },
+    { name: 'Node.js', icon: '/icons/node.svg' },
+    { name: 'NPM', icon: '/icons/npm.svg' },
+    { name: 'OpenAI', icon: '/icons/openai.svg' },
+    { name: 'Vercel', icon: '/icons/vercel.svg' },
+    { name: 'VS Code', icon: '/icons/vscode.svg' },
   ];
 
   const experiences = [
     {
-      company: 'Tech Company',
-      role: 'Senior Full Stack Developer',
-      period: 'Jan 2023 - Present',
-      description: 'Led development of AI-powered applications using React, Node.js, and Python. Implemented microservices architecture and improved system performance by 40%.',
-      logo: '💼'
+      company: 'Iloilo C&G Lending Investors Corp.',
+      role: 'IT Support / System Administrator',
+      period: 'Jan 2025 - Present',
+      description:
+        'Created a centralized database to digitize client and loan records, developed the company website, and provided IT support across departments. Responsible for managing user data, updating information, and maintaining system performance.',
+      logo: '/icons/CG-Lending.svg'
     },
     {
-      company: 'Startup Inc',
-      role: 'Full Stack Developer',
-      period: 'Jun 2021 - Dec 2022',
-      description: 'Built scalable web applications with React and Express. Collaborated with cross-functional teams to deliver features on time.',
-      logo: '🚀'
+      company: 'BlueShift Inc.',
+      role: 'General Virtual Assistant',
+      period: 'Oct 2020 - Apr 2022',
+      description:
+        'Built scalable web applications with React and Express. Collaborated with cross-functional teams to deliver features on time.',
+      logo: '/icons/blueshift.png',
+      link: 'https://blueshiftinc.net'
     },
     {
       company: 'Digital Agency',
       role: 'Frontend Developer',
       period: 'Jan 2020 - May 2021',
-      description: 'Developed responsive user interfaces and optimized web performance. Worked with modern JavaScript frameworks and design systems.',
+      description:
+        'Developed responsive user interfaces and optimized web performance. Worked with modern JavaScript frameworks and design systems.',
       logo: '🎨'
     }
   ];
 
   const projects = [
-    {
-      title: 'AI Dashboard',
-      description: 'Real-time analytics dashboard with AI-powered insights',
-      tech: ['React', 'TypeScript', 'Python'],
-      color: 'from-purple-500 to-pink-500'
-    },
-    {
-      title: 'E-Commerce Platform',
-      description: 'Full-stack e-commerce solution with payment integration',
-      tech: ['Next.js', 'Node.js', 'MongoDB'],
-      color: 'from-blue-500 to-cyan-500'
-    },
-    {
-      title: 'Task Manager',
-      description: 'Collaborative task management tool with real-time updates',
-      tech: ['React', 'Firebase', 'Tailwind'],
-      color: 'from-green-500 to-teal-500'
-    },
-    {
-      title: 'Social Media App',
-      description: 'Social networking platform with content sharing features',
-      tech: ['React Native', 'GraphQL', 'PostgreSQL'],
-      color: 'from-orange-500 to-red-500'
-    }
+    { title: 'AI Dashboard', description: 'Real-time analytics dashboard with AI-powered insights', tech: ['React', 'TypeScript', 'Python'], color: 'from-purple-500 to-pink-500' },
+    { title: 'E-Commerce Platform', description: 'Full-stack e-commerce solution with payment integration', tech: ['Next.js', 'Node.js', 'MongoDB'], color: 'from-blue-500 to-cyan-500' },
+    { title: 'Task Manager', description: 'Collaborative task management tool with real-time updates', tech: ['React', 'Firebase', 'Tailwind'], color: 'from-green-500 to-teal-500' },
+    { title: 'Social Media App', description: 'Social networking platform with content sharing features', tech: ['React Native', 'GraphQL', 'PostgreSQL'], color: 'from-orange-500 to-red-500' }
   ];
 
   const certificates = [
-    {
-      name: 'AWS Solutions Architect',
-      issuer: 'Amazon Web Services',
-      date: '2023',
-      description: 'Professional certification in cloud architecture and AWS services'
-    },
-    {
-      name: 'Full Stack Development',
-      issuer: 'FreeCodeCamp',
-      date: '2022',
-      description: 'Comprehensive certification covering modern web development'
-    },
-    {
-      name: 'Machine Learning Specialization',
-      issuer: 'Coursera',
-      date: '2023',
-      description: 'Advanced ML concepts and implementation with Python'
-    }
+    { name: 'AWS Solutions Architect', issuer: 'Amazon Web Services', date: '2023', description: 'Professional certification in cloud architecture and AWS services' },
+    { name: 'Full Stack Development', issuer: 'FreeCodeCamp', date: '2022', description: 'Comprehensive certification covering modern web development' },
+    { name: 'Machine Learning Specialization', issuer: 'Coursera', date: '2023', description: 'Advanced ML concepts and implementation with Python' }
   ];
 
   const bgClass = isDark ? 'bg-gray-900' : 'bg-gray-50';
   const textClass = isDark ? 'text-gray-100' : 'text-gray-900';
   const cardBg = isDark ? 'bg-gray-800' : 'bg-white';
   const borderClass = isDark ? 'border-gray-700' : 'border-gray-200';
+
+  // Helper: render emoji OR image for experience.logo
+  const renderLogo = (logo, company) => {
+    if (typeof logo === 'string' && (logo.startsWith('/') || logo.startsWith('http'))) {
+      return (
+        <img
+          src={logo}
+          alt={`${company} logo`}
+          className="w-10 h-10 object-contain rounded"
+          loading="lazy"
+        />
+      );
+    }
+    return <span className="text-4xl">{logo}</span>;
+  };
 
   return (
     <div className={`min-h-screen ${bgClass} ${textClass} transition-colors duration-300`}>
@@ -134,16 +122,14 @@ export default function Portfolio() {
           <div className="text-xl font-bold bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent">
             Patrick John Fajardo
           </div>
-          
+
           {/* Desktop Menu */}
           <div className="hidden md:flex items-center gap-6">
             {['Skills', 'Experience', 'Projects', 'Education', 'Certificates', 'Contact'].map((item) => (
               <button
                 key={item}
                 onClick={() => scrollToSection(item.toLowerCase())}
-                className={`hover:text-blue-500 transition-colors ${
-                  activeSection === item.toLowerCase() ? 'text-blue-500' : ''
-                }`}
+                className={`hover:text-blue-500 transition-colors ${activeSection === item.toLowerCase() ? 'text-blue-500' : ''}`}
               >
                 {item}
               </button>
@@ -178,11 +164,11 @@ export default function Portfolio() {
 
         {/* Side Menu Overlay */}
         {isSideMenuOpen && (
-          <div 
+          <div
             className="fixed inset-0 bg-black bg-opacity-50 z-50"
             onClick={() => setIsSideMenuOpen(false)}
           >
-            <div 
+            <div
               className={`fixed right-0 top-0 h-full w-80 ${cardBg} shadow-2xl transform transition-transform duration-300 flex flex-col`}
               onClick={(e) => e.stopPropagation()}
             >
@@ -200,10 +186,7 @@ export default function Portfolio() {
               <nav className="flex-1 px-6 py-8 flex flex-col">
                 <div className="space-y-6">
                   <button
-                    onClick={() => {
-                      scrollToSection('skills');
-                      setIsSideMenuOpen(false);
-                    }}
+                    onClick={() => { scrollToSection('skills'); setIsSideMenuOpen(false); }}
                     onMouseEnter={() => setHoveredMenuItem('skills')}
                     onMouseLeave={() => setHoveredMenuItem(null)}
                     className="flex items-center gap-4 text-lg hover:text-blue-500 transition-colors w-full text-left group"
@@ -213,10 +196,7 @@ export default function Portfolio() {
                   </button>
 
                   <button
-                    onClick={() => {
-                      scrollToSection('experience');
-                      setIsSideMenuOpen(false);
-                    }}
+                    onClick={() => { scrollToSection('experience'); setIsSideMenuOpen(false); }}
                     onMouseEnter={() => setHoveredMenuItem('experience')}
                     onMouseLeave={() => setHoveredMenuItem(null)}
                     className="flex items-center gap-4 text-lg hover:text-blue-500 transition-colors w-full text-left group"
@@ -226,10 +206,7 @@ export default function Portfolio() {
                   </button>
 
                   <button
-                    onClick={() => {
-                      scrollToSection('projects');
-                      setIsSideMenuOpen(false);
-                    }}
+                    onClick={() => { scrollToSection('projects'); setIsSideMenuOpen(false); }}
                     onMouseEnter={() => setHoveredMenuItem('projects')}
                     onMouseLeave={() => setHoveredMenuItem(null)}
                     className="flex items-center gap-4 text-lg hover:text-blue-500 transition-colors w-full text-left group"
@@ -239,10 +216,7 @@ export default function Portfolio() {
                   </button>
 
                   <button
-                    onClick={() => {
-                      scrollToSection('education');
-                      setIsSideMenuOpen(false);
-                    }}
+                    onClick={() => { scrollToSection('education'); setIsSideMenuOpen(false); }}
                     onMouseEnter={() => setHoveredMenuItem('education')}
                     onMouseLeave={() => setHoveredMenuItem(null)}
                     className="flex items-center gap-4 text-lg hover:text-blue-500 transition-colors w-full text-left group"
@@ -252,10 +226,7 @@ export default function Portfolio() {
                   </button>
 
                   <button
-                    onClick={() => {
-                      scrollToSection('certificates');
-                      setIsSideMenuOpen(false);
-                    }}
+                    onClick={() => { scrollToSection('certificates'); setIsSideMenuOpen(false); }}
                     onMouseEnter={() => setHoveredMenuItem('certificates')}
                     onMouseLeave={() => setHoveredMenuItem(null)}
                     className="flex items-center gap-4 text-lg hover:text-blue-500 transition-colors w-full text-left group"
@@ -347,7 +318,11 @@ export default function Portfolio() {
                 key={i}
                 className={`${cardBg} border ${borderClass} p-4 rounded-xl hover:scale-105 transition-transform cursor-pointer text-center`}
               >
-                <div className="text-3xl mb-2">{skill.icon}</div>
+                <img
+                  src={skill.icon}
+                  alt={skill.name}
+                  className="w-12 h-12 mx-auto mb-2 object-contain"
+                />
                 <div className="text-sm font-medium">{skill.name}</div>
               </div>
             ))}
@@ -362,16 +337,30 @@ export default function Portfolio() {
             <Briefcase className="text-blue-500" size={32} />
             <h2 className="text-4xl font-bold">Experience</h2>
           </div>
-          <div className="space-y-6">
+        <div className="space-y-6">
             {experiences.map((exp, i) => (
               <div key={i} className={`${cardBg} border ${borderClass} p-6 rounded-xl hover:shadow-lg transition-shadow`}>
                 <div className="flex items-start gap-4">
-                  <div className="text-4xl">{exp.logo}</div>
+                  <div className="w-10 h-10 flex items-center justify-center">
+                    {renderLogo(exp.logo, exp.company)}
+                  </div>
                   <div className="flex-1">
                     <div className="flex justify-between items-start mb-2">
                       <div>
                         <h3 className="text-xl font-bold">{exp.role}</h3>
-                        <p className="text-blue-500">{exp.company}</p>
+                        {exp.link ? (
+                        <a
+                          href={exp.link}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-blue-500 hover:underline"
+                        >
+                          {exp.company}
+                        </a>
+                      ) : (
+                        <span className="text-blue-500">{exp.company}</span>
+                      )}
+
                       </div>
                       <span className={`text-sm ${isDark ? 'text-gray-400' : 'text-gray-600'}`}>{exp.period}</span>
                     </div>
@@ -470,27 +459,27 @@ export default function Portfolio() {
             Let's work together on your next project
           </p>
           <div className="flex justify-center gap-6 flex-wrap">
+            {/* Opens Gmail compose to your address */}
             <a
-            href="https://mail.google.com/mail/?view=cm&fs=1&to=patrick80361@gmail.com"
-            className={`flex items-center gap-2 px-6 py-3 ${cardBg} border ${borderClass} rounded-full hover:shadow-lg transition-shadow`}
-            target="_blank"
-            rel="noopener noreferrer"
+              href="https://mail.google.com/mail/?view=cm&fs=1&to=patrick80361@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className={`flex items-center gap-2 px-6 py-3 ${cardBg} border ${borderClass} rounded-full hover:shadow-lg transition-shadow`}
             >
               <Mail size={20} />
               Email
             </a>
             <a href="https://github.com/PatrickJohnFajardo" 
-            className={`flex items-center gap-2 px-6 py-3 ${cardBg} border ${borderClass} rounded-full hover:shadow-lg transition-shadow`}
-            target="_blank"
-            rel="noopener noreferrer"
-            >
+              target="_blank"
+              rel="noopener noreferrer"
+              className={`flex items-center gap-2 px-6 py-3 ${cardBg} border ${borderClass} rounded-full hover:shadow-lg transition-shadow`}>
               <Github size={20} />
               GitHub
             </a>
-            <a href="https://www.linkedin.com/in/patrickjohn01" 
-            className={`flex items-center gap-2 px-6 py-3 ${cardBg} border ${borderClass} rounded-full hover:shadow-lg transition-shadow`}
-            target="_blank"
-            rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/in/patrickjohn01"
+              target="_blank"
+              rel="noopener noreferrer" 
+              className={`flex items-center gap-2 px-6 py-3 ${cardBg} border ${borderClass} rounded-full hover:shadow-lg transition-shadow`}>
               <Linkedin size={20} />
               LinkedIn
             </a>

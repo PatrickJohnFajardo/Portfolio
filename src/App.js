@@ -144,7 +144,7 @@ export default function Portfolio() {
        'Applied SQL for data analytics, reporting, and real-world case studies using PostgreSQL',
        'Gained confidence in integrating SQL queries into real applications and backend systems'
      ],
-     image: '/certificates/sql-bootcamp.png',
+     image: '/certificates/sequel.png',
      link: 'https://www.udemy.com/certificate/UC-6e804d53-d529-4129-a4a6-e06c73d35742/?utm_campaign=email&utm_medium=email&utm_source=sendgrid.com' 
    },
     {

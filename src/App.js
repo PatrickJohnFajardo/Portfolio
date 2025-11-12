@@ -527,7 +527,7 @@ export default function Portfolio() {
           <h2 className="text-4xl font-bold mb-8">Get In Touch<span className="text-blue-500">.</span></h2>
           <p className={`text-xl ${isDark ? 'text-gray-400' : 'text-gray-600'} mb-8`}>Let's work together on your next project</p>
           <div className="flex justify-center gap-6 flex-wrap">
-            <a href="https://www.facebook.com/patrickjohnfajardo" target="_blank" rel="noopener noreferrer" className={`flex items-center gap-2 px-6 py-3 ${cardBg} border ${borderClass} rounded-full hover:shadow-lg transition-shadow`}>
+            <a href="https://www.facebook.com/patrickjohn.fajardo.355/" target="_blank" rel="noopener noreferrer" className={`flex items-center gap-2 px-6 py-3 ${cardBg} border ${borderClass} rounded-full hover:shadow-lg transition-shadow`}>
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-5 h-5">
                 <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3.64l.36-4H14V7a1 1 0 0 1 1-1h3z" />
               </svg>

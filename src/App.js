@@ -62,14 +62,34 @@ export default function Portfolio() {
       company: 'Iloilo C&G Lending Investors Corp.',
       role: 'IT Support / System Administrator',
       period: 'Jan 2025 - Present',
-      description: 'Created a centralized database to digitize client and loan records, developed the company website, and provided IT support across departments. Responsible for managing user data, updating information, and maintaining system performance.',
-      logo: '/icons/CG-Lending.svg'
+      description: [
+        'Performs daily check-ups, analysis of the status of hardware peripherals and units, and troubleshoots defects or abnormalities',
+        'Oversee data and voice connections and operation, diagnosing and configuration of networks like IP Address and DNS',
+        'Performs basic networking skills like crimping and mapping to ensure the effectiveness of LAN cables',
+        'Monitors the performance of the system and identifies downed servers',
+        'Setting up equipment for employee use, ensuring proper installation of cables, operating systems, or appropriate software, and performing minor and major repairs to hardware, software, or peripheral equipment following design or installation specifications'
+      ],
+      logo: '/icons/cg-lending.svg',
+      //link: '#'
     },
     {
       company: 'BlueShift Inc.',
       role: 'General Virtual Assistant',
       period: 'Oct 2020 - Apr 2022',
-      description: 'Built scalable web applications with React and Express. Collaborated with cross-functional teams to deliver features on time.',
+      description: [
+      'Appointment setting for clients and partners.',
+      'Collection reminder calls and account follow-ups.',
+      'Lead generation and qualification for mortgage, student loan, payday loan settlement, and legal services.',
+      'Conducted market research surveys to gather data and insights.',
+      'Performed customer satisfaction surveys to assess service quality.',
+      'Provided answering services and managed incoming client inquiries.',
+      'Delivered help desk support for general and technical concerns.',
+      'Offered customer service and technical assistance to ensure client satisfaction.',
+      'Handled backend operations including documentation and data processing.',
+      'Supported administrative tasks and client coordination as a virtual assistant.',
+      'Performed quality control verification on client accounts and transactions.',
+      'Conducted quality assurance audits to maintain service accuracy and compliance.'
+      ],
       logo: '/icons/blueshift.png',
       link: 'https://blueshiftinc.net'
     },
@@ -143,7 +163,7 @@ export default function Portfolio() {
        'Created and managed tables, constraints, and indexes to optimize database performance',
        'Applied SQL for data analytics, reporting, and real-world case studies using PostgreSQL',
        'Gained confidence in integrating SQL queries into real applications and backend systems'
-     ],
+     ], 
      image: '/certificates/sequel.png',
      link: 'https://www.udemy.com/certificate/UC-6e804d53-d529-4129-a4a6-e06c73d35742/?utm_campaign=email&utm_medium=email&utm_source=sendgrid.com' 
    },

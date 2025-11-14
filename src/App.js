@@ -92,7 +92,7 @@ export default function Portfolio() {
       'Performed quality control verification on client accounts and transactions.',
       'Conducted quality assurance audits to maintain service accuracy and compliance.'
       ],
-      logo: '/icons/blueshift.png',
+      logo: '/icons/cg-lending.png',
       link: 'https://blueshiftinc.net'
     },
   ];

@@ -56,6 +56,7 @@ export default function Portfolio() {
     { name: 'OpenAI', icon: '/icons/openai.svg' },
     { name: 'Vercel', icon: '/icons/vercel.svg' },
     { name: 'VS Code', icon: '/icons/vscode.svg' },
+    { name: 'Redhat', icon: '/icons/redhat.svg' },
   ];
 
   const experiences = [

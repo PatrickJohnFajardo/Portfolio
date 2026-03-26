@@ -41,25 +41,68 @@ export default function Portfolio() {
 
   const skills = [
     { name: 'PHP', icon: '/icons/php.svg' },
-    { name: 'React', icon: '/icons/react.png' },
+    { name: 'React.js', icon: '/icons/react.png' },
+    { name: 'Next.js', icon: '/icons/nextjs.svg' },
+    { name: 'Vue.js', icon: '/icons/vue.svg' },
+    { name: 'Node.js', icon: '/icons/node.svg' },
+    { name: 'Express.js', icon: '/icons/express.svg' },
+    { name: 'Laravel', icon: '/icons/laravel.svg' },
+    { name: 'CodeIgniter', icon: '/icons/codeigniter.svg' },
     { name: 'Python', icon: '/icons/python.svg' },
     { name: 'JavaScript', icon: '/icons/javascript.svg' },
-    { name: 'Canva', icon: '/icons/canva.png' },
+    { name: 'TypeScript', icon: '/icons/typescript.svg' },
     { name: 'HTML', icon: '/icons/html.svg' },
     { name: 'CSS', icon: '/icons/css.svg' },
-    { name: 'Figma', icon: '/icons/figma.svg' },
-    { name: 'Gemini', icon: '/icons/gemini.svg' },
-    { name: 'Git', icon: '/icons/git.svg' },
+    { name: 'Flutter', icon: '/icons/flutter.svg' },
     { name: 'MySQL', icon: '/icons/mysql.svg' },
-    { name: 'Next.js', icon: '/icons/nextjs.svg' },
-    { name: 'Node.js', icon: '/icons/node.svg' },
-    { name: 'NPM', icon: '/icons/npm.svg' },
+    { name: 'PostgreSQL', icon: '/icons/postgresql.svg' },
+    { name: 'Supabase', icon: '/icons/supabase.svg' },
+    { name: 'Firebase', icon: '/icons/firebase.svg' },
+    { name: 'JSON', icon: '/icons/json.svg' },
+    { name: 'n8n', icon: '/icons/n8n.svg' },
+    { name: 'LangChain/LangGraph/LangSmith', icon: '/icons/langchain.svg' },
     { name: 'OpenAI', icon: '/icons/openai.svg' },
+    { name: 'Google Gemini', icon: '/icons/gemini.svg' },
+    { name: 'Anthropic Claude', icon: '/icons/claude.svg' },
+    { name: 'Git', icon: '/icons/git.svg' },
+    { name: 'GitHub', icon: '/icons/github.svg' },
+    { name: 'Bitbucket', icon: '/icons/bitbucket.svg' },
+    { name: 'GitHub Actions', icon: '/icons/githubactions.svg' },
     { name: 'Vercel', icon: '/icons/vercel.svg' },
+    { name: 'Netlify', icon: '/icons/netlify.svg' },
+    { name: 'Railway', icon: '/icons/railway.svg' },
+    { name: 'GoHighLevel', icon: '/icons/gohighlevel.svg' },
+    { name: 'Kajabi', icon: '/icons/kajabi.svg' },
+    { name: 'Figma', icon: '/icons/figma.svg' },
+    { name: 'Canva', icon: '/icons/canva.png' },
+    { name: 'Blender', icon: '/icons/blender.svg' },
+    { name: 'NPM', icon: '/icons/npm.svg' },
     { name: 'VS Code', icon: '/icons/vscode.svg' },
   ];
 
   const experiences = [
+    {
+      company: 'Iloilo Space Organization',
+      role: 'Co-founder',
+      period: 'Jan 2026 - Present',
+      description: [
+        'Co-founding and leading the Iloilo Space Organization.',
+        'Developing the platform at iloilospace.com'
+      ],
+      logo: '/icons/iloilospace.png',
+      link: 'https://iloilospace.com'
+    },
+    {
+      company: 'Vip Scale',
+      role: 'Software Engineer Intern',
+      period: 'Nov 2025 - Present',
+      description: [
+        'Working as a Software Engineer Intern at Vip Scale.',
+        'Contributing to projects at vipscaleph.com'
+      ],
+      logo: '/icons/vipscale.png',
+      link: 'https://vipscaleph.com'
+    },
     {
       company: 'Iloilo C&G Lending Investors Corp.',
       role: 'IT Support / System Administrator',
@@ -99,6 +142,33 @@ export default function Portfolio() {
 
   const projects = [
     { 
+      title: 'QUEUP Admin Dashboard', 
+      description: 'A comprehensive queuing management system optimized for institutional use. Features include real-time queue monitoring, administrative controls, and performance analytics to streamline user flow and service efficiency.', 
+      tech: ['PHP', 'Tailwind CSS', 'MySQL', 'JavaScript'], 
+      color: 'from-red-600 to-orange-500',
+      images: ['/projects/queup-1.png'],
+      github: '#',
+      live: 'https://queup-pro.up.railway.app'
+    },
+    { 
+      title: 'NovoRep Academy', 
+      description: 'A modern, space-themed educational landing page for a remote sales academy. Features a premium glassmorphism UI, 3D elements, and a structured 4-week course curriculum presentation designed for high conversion and professional branding.', 
+      tech: ['Next.js', 'Tailwind CSS', 'Three.js'], 
+      color: 'from-violet-600 to-indigo-600',
+      images: ['/projects/rc1.png', '/projects/rc2.png', '/projects/rc3.png', '/projects/rc4.png'],
+      github: '#',
+      //live: '#'
+    },
+    { 
+      title: 'Photography Breakthrough System', 
+      description: 'A premium landing page for professional photography coaching. Employs a minimalist design aesthetic with high-quality imagery, client success stories, and specialized modules focused on scaling photography businesses.', 
+      tech: ['React', 'Tailwind CSS', 'Framer Motion'], 
+      color: 'from-orange-400 to-red-500',
+      images: ['/projects/dilan1.png', '/projects/dilan2.png', '/projects/dilan3.png'],
+      github: '#',
+      //live: '#'
+    },
+    { 
       title: 'Student Grading System', 
       description: 'A web-based application built using PHP, CSS, and JavaScript that allows administrators to manage students, subjects, and grades efficiently. The system provides CRUD functionality (Create, Read, Update, Delete) for student records, subject data, and grade entries. It features a clean, responsive interface and an intuitive admin dashboard for smooth navigation and management.', 
       tech: ['PHP', 'CSS', 'JavaScript'], 
@@ -108,29 +178,11 @@ export default function Portfolio() {
       //live: '#'
     },
     { 
-      title: 'E-Commerce Platform', 
-      description: 'Full-stack e-commerce solution with payment integration', 
-      tech: ['Next.js', 'Node.js', 'MongoDB'], 
-      color: 'from-blue-500 to-cyan-500',
-      images: ['/projects/ecommerce-1.png', '/projects/ecommerce-2.png', '/projects/ecommerce-3.png'],
-      github: '#',
-      //live: '#'
-    },
-    { 
       title: 'IOT Irrigation System', 
       description: 'An Arduino-based smart irrigation system that automatically waters plants based on real-time soil moisture readings. The system uses a Soil Moisture Sensor, Relay Module, and 5V DC Water Pump controlled by an Arduino Uno R3, with an LCD Display showing live sensor data and system status. It ensures efficient water use by activating the pump only when the soil is dry.', 
       tech: ['Arduino Uno R3', 'Esp32', 'Soil Moisture Sensor', 'Relay Module', '5V DC Water Pump', '16x2 LCD Display'], 
       color: 'from-green-500 to-teal-500',
       images: ['/projects/irrigation1.png', '/projects/irrigation2.png', '/projects/irrigation3.png', '/projects/irrigation4.png',],
-      github: '#',
-      //live: '#'
-    },
-    { 
-      title: 'Social Media App', 
-      description: 'Social networking platform with content sharing features', 
-      tech: ['React Native', 'GraphQL', 'PostgreSQL'], 
-      color: 'from-orange-500 to-red-500',
-      images: ['/projects/social-1.png', '/projects/social-2.png', '/projects/social-3.png'],
       github: '#',
       //live: '#'
     }
